@@ -11,6 +11,7 @@ exports.getProducts = (req, res, next) => {
   });
 };
 
+<<<<<<< HEAD
 exports.getProduct = (req, res, next) => {
   const prodId = req.params.productId;
   Product.findById(prodId, product => {
@@ -22,6 +23,8 @@ exports.getProduct = (req, res, next) => {
   });
 };
 
+=======
+>>>>>>> 54601740f8495a1266610554bfd5d0c55b33cbdb
 exports.getIndex = (req, res, next) => {
   Product.fetchAll(products => {
     res.render('shop/index', {
@@ -40,6 +43,7 @@ exports.getCart = (req, res, next) => {
   });
 };
 
+<<<<<<< HEAD
 exports.getOrders = (req, res, next) => {
   res.render('shop/orders',{
     path: '/orders',
@@ -47,6 +51,8 @@ exports.getOrders = (req, res, next) => {
   });
 };
 
+=======
+>>>>>>> 54601740f8495a1266610554bfd5d0c55b33cbdb
 exports.getCheckout = (req, res, next) => {
   res.render('shop/checkout', {
     path: '/checkout',

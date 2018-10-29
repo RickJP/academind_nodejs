@@ -5,13 +5,20 @@
 .form-control label,
 .form-control input,
 .form-control textarea {
+<<<<<<< HEAD
   display: block;
   width: 100%;
   margin-bottom: 0.25rem;
+=======
+    display: block;
+    width: 100%;
+    margin-bottom: 0.25rem;
+>>>>>>> 54601740f8495a1266610554bfd5d0c55b33cbdb
 }
 
 .form-control input,
 .form-control textarea {
+<<<<<<< HEAD
   border: 1px solid #a1a1a1;
   font: inherit;
   border-radius: 2px;
@@ -20,4 +27,14 @@
 .form-control input:focus,
 .form-control textarea:focus {
   outline-color: #00695c;
+=======
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+}
+
+.form-control input:focus,
+.form-control textarea:fover {
+    outline-color: #00695c;
+>>>>>>> 54601740f8495a1266610554bfd5d0c55b33cbdb
 }
