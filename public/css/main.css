@@ -159,10 +159,21 @@ form {
 
 .card__image {
   width: 100%;
+
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card__image img {
   width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card__actions {
@@ -201,4 +212,8 @@ form {
   #side-menu-toggle {
     display: none;
   }
+}
+
+.centered {
+  text-align: center;
 }
